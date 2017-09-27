@@ -36,7 +36,6 @@ class SpriderMain(object):
 
 
 if __name__ == "__main__":
-    # root_url = "https://baike.baidu.com/item/Python"
     obj_spider = SpriderMain()
     root_url = raw_input("请输入您要爬取首个百度百科词条的页面，我们会搜索与其相关的词条,例如：https://baike.baidu.com/item/Python：" + "\n")
     count = input("请输入您要爬取词条的个数（爬取越多消耗时间越长哦！）: ")
